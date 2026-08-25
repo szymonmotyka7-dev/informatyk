@@ -9,8 +9,6 @@ https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
 #EXTINF:0 tvg-id="TVPWorld.pl" tvg-name="TVP World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/500px-TVP_World_%282021%29.svg.png" group-title="TVP",TVP World
 https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
-#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="TVP",TVP Sport
-https://tvpi.travny.workers.dev/tvpsport.m3u8
 #EXTINF:0 tvg-id="AlfaTVP.pl" tvg-name="Alfa TVP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alfa_TVP_%282022%29.svg/500px-Alfa_TVP_%282022%29.svg.png" group-title="TVP",Alfa TVP
 https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
 #EXTINF:0 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Inne",Belsat
