@@ -3,8 +3,6 @@
 https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
 #EXTINF:0 tvg-id="TVP2.pl" tvg-name="TVP2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP2_HD_logo.svg/500px-TVP2_HD_logo.svg.png" group-title="TVP",TVP2
 https://lowa8026-cmyk.github.io/PL/TVP2.php.m3u8
-#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="TVP",TVP Sport
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7280/index.m3u8
 #EXTINF:0 tvg-id="TVPInfo.pl" tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/500px-TVP_Info_logo.svg.png" group-title="TVP",TVP Info
 https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:0 tvg-id="TVPPolonia.pl" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/500px-TVP_Polonia_Logo_2020.svg.png" group-title="TVP",TVP Polonia
@@ -15,6 +13,8 @@ https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
 https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
 #EXTINF:0 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Inne",Belsat
 https://iptv.prosto.tv/ch171/index.m3u8
+#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="Sport",TVP Sport
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/7280/index.m3u8
 #EXTINF:0 tvg-id="13 Ulica" tvg-name="13 Ulica" tvg-logo="http://logo.plusx.tv/logo/13%20Ulica%20HD.png" group-title="Rozrywka",13 Ulica HD
 http://cdnx1.plusx.tv:4000/325/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
 #EXTINF:0 tvg-id="13.TV" tvg-name="13.TV" tvg-logo="http://epg.ovh/logo/13TV+HD.png" group-title="Rozrywka",13TV HD
