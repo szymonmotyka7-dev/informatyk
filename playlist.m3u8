@@ -2,7 +2,7 @@
 #EXTINF:0 tvg-id="TVP1.pl" tvg-name="TVP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tvp1.png/500px-Tvp1.png" group-title="TVP",TVP1
 https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
 #EXTINF:0 tvg-id="TVP2.pl" tvg-name="TVP2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP2_HD_logo.svg/500px-TVP2_HD_logo.svg.png" group-title="TVP",TVP2
-https://liveovh011.cda.pl/enc115/tvp2hdraw/tvp2hdraw.m3u8
+https://cdndai.pl/tvp2hd/index.m3u8
 #EXTINF:0 tvg-id="TVPInfo.pl" tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/500px-TVP_Info_logo.svg.png" group-title="TVP",TVP Info
 https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:0 tvg-id="TVPPolonia.pl" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/500px-TVP_Polonia_Logo_2020.svg.png" group-title="TVP",TVP Polonia
