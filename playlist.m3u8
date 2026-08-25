@@ -2,7 +2,7 @@
 #EXTINF:0 tvg-id="TVP1.pl" tvg-name="TVP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tvp1.png/500px-Tvp1.png" group-title="TVP",TVP1
 https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
 #EXTINF:0 tvg-id="TVP2.pl" tvg-name="TVP2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP2_HD_logo.svg/500px-TVP2_HD_logo.svg.png" group-title="TVP",TVP2
-https://lowa8026-cmyk.github.io/PL/TVP2.php.m3u8
+https://liveovh011.cda.pl/enc115/tvp2hdraw/tvp2hdraw.m3u8
 #EXTINF:0 tvg-id="TVPInfo.pl" tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/500px-TVP_Info_logo.svg.png" group-title="TVP",TVP Info
 https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 #EXTINF:0 tvg-id="TVPPolonia.pl" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/500px-TVP_Polonia_Logo_2020.svg.png" group-title="TVP",TVP Polonia
@@ -43,13 +43,3 @@ http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03
 http://cdnx1.plusx.tv:4000/321/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
 #EXTINF:0 tvg-id="Ale Kino+" tvg-name="Ale Kino!" tvg-logo="http://logo.plusx.tv/logo/Ale%20Kino+%20HD.png" group-title="Film",Ale Kino!
 http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
-#EXTINF:0 tvg-id="CanalPlus.pl" tvg-name="CANAL+ Premium" tvg-logo="https://i.imgur.com/logo_cplus.png" group-title="CANAL+",CANAL+ Premium
-http://cdnx1.plusx.tv:4000/6001/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
-#EXTINF:0 tvg-id="CanalPlusFilm.pl" tvg-name="CANAL+ Film" tvg-logo="https://i.imgur.com/logo_cpfilm.png" group-title="CANAL+",CANAL+ Film
-http://cdnx1.plusx.tv:4000/6002/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
-#EXTINF:0 tvg-id="CanalPlusSport.pl" tvg-name="CANAL+ Sport" tvg-logo="https://i.imgur.com/logo_cpsport.png" group-title="CANAL+ Sport",CANAL+ Sport
-http://cdnx1.plusx.tv:4000/6003/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
-#EXTINF:0 tvg-id="CanalPlusSport2.pl" tvg-name="CANAL+ Sport 2" tvg-logo="https://i.imgur.com/logo_cpsport2.png" group-title="CANAL+ Sport",CANAL+ Sport 2
-http://cdnx1.plusx.tv:4000/6004/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
-#EXTINF:0 tvg-id="CanalPlusExtra1.pl" tvg-name="CANAL+ Extra 1" tvg-logo="https://i.imgur.com/logo_cpextra1.png" group-title="CANAL+ Extra",CANAL+ Extra 1
-http://cdnx1.plusx.tv:4000/6005/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
