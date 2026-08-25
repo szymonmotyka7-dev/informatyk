@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Poland</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #e94560;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0;
+            border-bottom: 2px solid #333;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 15px 20px;
+            background: transparent;
+            color: #aaa;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab-btn:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tab-btn.active {
+            color: #e94560;
+            border-bottom-color: #e94560;
+            background: rgba(233, 69, 96, 0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .channels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .channel-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .channel-card:hover {
+            background: rgba(233, 69, 96, 0.2);
+            border-color: #e94560;
+            transform: translateY(-5px);
+        }
+
+        .channel-card img {
+            max-width: 100%;
+            height: 60px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .channel-card p {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .channel-card h3 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .player-section {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .player {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: #000;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .player-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .player-info h2 {
+            font-size: 20px;
+            color: #e94560;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #aaa;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-top: 4px solid #e94560;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .search-box input::placeholder {
+            color: #666;
+        }
+
+        .movies-placeholder {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .movies-placeholder h2 {
+            margin-bottom: 20px;
+            color: #e94560;
+        }
+
+        .movies-placeholder p {
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎬 IPTV Poland</h1>
+        <p>Kanały TV i Filmy Online</p>
+    </header>
+
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('tv')">📺 TV</button>
+        <button class="tab-btn" onclick="switchTab('movies')">🎥 Filmy</button>
+    </div>
+
+    <div class="container">
+        <!-- TAB TV -->
+        <div id="tv" class="tab-content active">
+            <div class="player-section">
+                <video id="player" class="player" controls></video>
+                <div class="player-info">
+                    <h2 id="currentChannel">Wybierz kanał</h2>
+                    <span id="playStatus">Gotowy</span>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Szukaj kanału..." onkeyup="filterChannels()">
+            </div>
+
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Wczytywanie kanałów...</p>
+            </div>
+
+            <div id="channelsGrid" class="channels-grid" style="display: none;">
+            </div>
+        </div>
+
+        <!-- TAB MOVIES -->
+        <div id="movies" class="tab-content">
+            <div class="movies-placeholder">
+                <h2>🎥 Sekcja Filmów</h2>
+                <p>Netflix i inne platformy VOD</p>
+                <p style="color: #666; font-size: 14px;">Możesz dodać swoje ulubione serwisy streamingowe</p>
+                
+                <div class="channels-grid" style="margin-top: 40px;">
+                    <div class="channel-card" onclick="openLink('https://www.netflix.com')">
+                        <h3>🎬 Netflix</h3>
+                        <p>Seriale i Filmy</p>
+                    </div>
+                    <div class="channel-card" onclick="openLink('https://www.hbo.go.com')">
+                        <h3>📺 HBO GO</h3>
+                        <p>Premiery i Seriale</p>
+                    </div>
+                    <div class="channel-card" onclick="openLink('https://www.amazon.com/Prime-Video')">
+                        <h3>📦 Prime Video</h3>
+                        <p>Filmy i Seriale</p>
+                    </div>
+                    <div class="channel-card" onclick="openLink('https://www.player.pl')">
+                        <h3>▶️ TVN Player</h3>
+                        <p>Polskie Seriale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let channels = [];
+        let allChannels = [];
+
+        async function loadPlaylist() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/szymonmotyka7-dev/informatyk/main/playlist.m3u8');
+                const text = await response.text();
+                
+                const lines = text.split('\n');
+                channels = [];
+                
+                for (let i = 0; i < lines.length; i++) {
+                    if (lines[i].startsWith('#EXTINF')) {
+                        const nameMatch = lines[i].match(/,(.+)$/);
+                        const logoMatch = lines[i].match(/tvg-logo="([^"]+)"/);
+                        const groupMatch = lines[i].match(/group-title="([^"]+)"/);
+                        
+                        if (nameMatch && lines[i + 1] && !lines[i + 1].startsWith('#')) {
+                            channels.push({
+                                name: nameMatch[1],
+                                url: lines[i + 1].trim(),
+                                logo: logoMatch ? logoMatch[1] : '',
+                                group: groupMatch ? groupMatch[1] : 'Inne'
+                            });
+                        }
+                    }
+                }
+                
+                allChannels = [...channels];
+                renderChannels();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('channelsGrid').style.display = 'grid';
+                
+            } catch (error) {
+                console.error('Błąd wczytywania:', error);
+                document.getElementById('loading').innerHTML = '<p>Błąd wczytywania playlisty</p>';
+            }
+        }
+
+        function renderChannels() {
+            const grid = document.getElementById('channelsGrid');
+            grid.innerHTML = '';
+            
+            channels.forEach(channel => {
+                const card = document.createElement('div');
+                card.className = 'channel-card';
+                card.onclick = () => playChannel(channel);
+                
+                card.innerHTML = `
+                    ${channel.logo ? `<img src="${channel.logo}" onerror="this.style.display='none'">` : ''}
+                    <h3>${channel.name}</h3>
+                    <p>${channel.group}</p>
+                `;
+                
+                grid.appendChild(card);
+            });
+        }
+
+        function playChannel(channel) {
+            const player = document.getElementById('player');
+            document.getElementById('currentChannel').textContent = channel.name;
+            
+            // Obsługa różnych formatów
+            if (channel.url.endsWith('.m3u8')) {
+                // HLS stream
+                if (Hls.isSupported()) {
+                    const hls = new Hls();
+                    hls.loadSource(channel.url);
+                    hls.attachMedia(player);
+                } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+                    player.src = channel.url;
+                }
+            } else {
+                player.src = channel.url;
+            }
+            
+            player.play();
+            document.getElementById('playStatus').textContent = '▶️ Odtwarzanie...';
+        }
+
+        function filterChannels() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            channels = allChannels.filter(ch => ch.name.toLowerCase().includes(search));
+            renderChannels();
+        }
+
+        function switchTab(tab) {
+            // Ukryj wszystkie
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            
+            // Pokaż wybrany
+            document.getElementById(tab).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+
+        // Załaduj playlistę na start
+        loadPlaylist();
+    </script>
+
+    <!-- HLS.js dla obsługi M3U8 -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</body>
+</html>
