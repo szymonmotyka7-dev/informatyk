@@ -5,8 +5,8 @@ https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
 https://lowa8026-cmyk.github.io/PL/TVP2.php.m3u8
 #EXTINF:0 tvg-id="TVPInfo.pl" tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/500px-TVP_Info_logo.svg.png" group-title="TVP",TVP Info
 https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
-#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="TVP",TVP Sport
-https://lowa8026-cmyk.github.io/tvpvod/399717.m3u8
+#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="TVP Sport",TVP Sport
+https://7nyaler.streamhostingcdn.top/stream/28/index.m3u8
 #EXTINF:0 tvg-id="TVPPolonia.pl" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/500px-TVP_Polonia_Logo_2020.svg.png" group-title="TVP",TVP Polonia
 https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
 #EXTINF:0 tvg-id="TVPWorld.pl" tvg-name="TVP World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/500px-TVP_World_%282021%29.svg.png" group-title="TVP",TVP World
