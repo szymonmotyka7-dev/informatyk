@@ -1,0 +1,45 @@
+#EXTM3U
+#EXTINF:0 tvg-id="TVP1.pl" tvg-name="TVP1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tvp1.png/500px-Tvp1.png" group-title="TVP",TVP1
+https://lowa8026-cmyk.github.io/PL/TVP1.php.m3u8
+#EXTINF:0 tvg-id="TVP2.pl" tvg-name="TVP2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/TVP2_HD_logo.svg/500px-TVP2_HD_logo.svg.png" group-title="TVP",TVP2
+https://lowa8026-cmyk.github.io/PL/TVP2.php.m3u8
+#EXTINF:0 tvg-id="TVPInfo.pl" tvg-name="TVP Info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/500px-TVP_Info_logo.svg.png" group-title="TVP",TVP Info
+https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
+#EXTINF:0 tvg-id="TVPPolonia.pl" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/500px-TVP_Polonia_Logo_2020.svg.png" group-title="TVP",TVP Polonia
+https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
+#EXTINF:0 tvg-id="TVPWorld.pl" tvg-name="TVP World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/500px-TVP_World_%282021%29.svg.png" group-title="TVP",TVP World
+https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
+#EXTINF:0 tvg-id="AlfaTVP.pl" tvg-name="Alfa TVP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alfa_TVP_%282022%29.svg/500px-Alfa_TVP_%282022%29.svg.png" group-title="TVP",Alfa TVP
+https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
+#EXTINF:0 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Inne",Belsat
+https://iptv.prosto.tv/ch171/index.m3u8
+#EXTINF:0 tvg-id="13 Ulica" tvg-name="13 Ulica" tvg-logo="http://logo.plusx.tv/logo/13%20Ulica%20HD.png" group-title="Rozrywka",13 Ulica HD
+http://cdnx1.plusx.tv:4000/325/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="13.TV" tvg-name="13.TV" tvg-logo="http://epg.ovh/logo/13TV+HD.png" group-title="Rozrywka",13TV HD
+http://cdnx1.plusx.tv:4000/6016/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="4FUN DANCE" tvg-name="4FUN DANCE" tvg-logo="http://logo.plusx.tv/logo/4Fun%20Fit%20Dance.png" group-title="Muzyka",4FUN DANCE
+http://cdnx1.plusx.tv:4000/324/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="4FUN KIDS" tvg-name="4FUN KIDS" tvg-logo="http://epg.ovh/logo/4FUN+KIDS.png" group-title="Dla Dzieci",4FUN KIDS
+http://cdnx1.plusx.tv:4000/323/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="2x2" tvg-name="2x2" tvg-logo="https://epg.ovh/logo/2x2.png" group-title="Dla Dzieci",2x2 HD
+http://cdnx1.plusx.tv:4000/2x2/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="4FUN TV" tvg-name="4FUN TV" tvg-logo="http://logo.plusx.tv/logo/4Fun.png" group-title="Muzyka",4FUN TV
+http://cdnx1.plusx.tv:4000/322/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="Antena" tvg-name="Antena" tvg-logo="http://epg.ovh/logo/Antena.png" group-title="Rozrywka",Antena
+http://cdnx1.plusx.tv:4000/1316/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="AMC" tvg-name="AMC HD" tvg-logo="http://logo.plusx.tv/logo/AMC%20HD.png" group-title="Film",AMC HD
+http://cdnx1.plusx.tv:4000/318/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="AXN Black" tvg-name="AXN Black" tvg-logo="http://logo.plusx.tv/logo/AXN%20Black.png" group-title="Rozrywka",AXN Black
+http://cdnx1.plusx.tv:4000/314/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="AXN" tvg-name="AXN" tvg-logo="http://logo.plusx.tv/logo/AXN%20HD.png" group-title="Rozrywka",AXN HD
+http://cdnx1.plusx.tv:4000/313/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="AXN Spin" tvg-name="AXN Spin HD" tvg-logo="http://logo.plusx.tv/logo/AXN%20Spin%20HD.png" group-title="Rozrywka",AXN Spin HD
+http://cdnx1.plusx.tv:4000/312/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="AXN White" tvg-name="AXN White" tvg-logo="http://logo.plusx.tv/logo/AXN%20White.png" group-title="Rozrywka",AXN White
+http://cdnx1.plusx.tv:4000/311/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="Adventure" tvg-name="Adventure HD" tvg-logo="http://logo.plusx.tv/logo/Adventure%20HD.png" group-title="Rozrywka",Adventure HD
+http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="ActiveFamily.pl" tvg-name="Active Family" tvg-logo="http://epg.ovh/logo/Active+Family.png" group-title="Rozrywka",Active Family
+http://cdnx1.plusx.tv:4000/321/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:0 tvg-id="Ale Kino+" tvg-name="Ale Kino!" tvg-logo="http://logo.plusx.tv/logo/Ale%20Kino+%20HD.png" group-title="Film",Ale Kino!
+http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
