@@ -43,3 +43,5 @@ http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03
 http://cdnx1.plusx.tv:4000/321/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
 #EXTINF:0 tvg-id="Ale Kino+" tvg-name="Ale Kino!" tvg-logo="http://logo.plusx.tv/logo/Ale%20Kino+%20HD.png" group-title="Film",Ale Kino!
 http://cdnx1.plusx.tv:4000/320/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
+#EXTINF:-1 tvg-name="TVP Sport" group-title="TVP",TVP Sport
+https://https://sport.tvp.pl/program-tv.m3u8
