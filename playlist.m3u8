@@ -9,13 +9,13 @@ https://lowa8026-cmyk.github.io/tvpvod/399699.m3u8
 https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8
 #EXTINF:0 tvg-id="TVPWorld.pl" tvg-name="TVP World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TVP_World_%282021%29.svg/500px-TVP_World_%282021%29.svg.png" group-title="TVP",TVP World
 https://lowa8026-cmyk.github.io/tvpvod/399731.m3u8
-#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="TVP",TVP Sport
-https://tvpi.travny.workers.dev/tvpsport.m3u8
 #EXTINF:0 tvg-id="AlfaTVP.pl" tvg-name="Alfa TVP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alfa_TVP_%282022%29.svg/500px-Alfa_TVP_%282022%29.svg.png" group-title="TVP",Alfa TVP
 https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
 #EXTINF:0 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Inne",Belsat
 https://iptv.prosto.tv/ch171/index.m3u8
-#EXTINF:0 tvg-id="CanalPlusSport.pl" tvg-name="CANAL+ Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Sport
+#EXTINF:0 tvg-id="TVPSport.pl" tvg-name="TVP Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TVP_Sport_2022.svg/500px-TVP_Sport_2022.svg.png" group-title="Sport",TVP Sport
+https://tvpi.travny.workers.dev/tvpsport.m3u8
+#EXTINF:0 tvg-id="CanalPlusSport.pl" tvg-name="CANAL+ Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="Sport",CANAL+ Sport
 https://tvpi.travny.workers.dev/canalplussport.m3u8
 #EXTINF:0 tvg-id="13 Ulica" tvg-name="13 Ulica" tvg-logo="http://logo.plusx.tv/logo/13%20Ulica%20HD.png" group-title="Rozrywka",13 Ulica HD
 http://cdnx1.plusx.tv:4000/325/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
