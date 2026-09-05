@@ -15,20 +15,8 @@ https://tvpi.travny.workers.dev/tvpsport.m3u8
 https://www.tvkaista.net/stream-forwarder/get.php?x=AlfaTVP
 #EXTINF:0 tvg-id="BelsatTV.pl" tvg-name="Belsat" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Belsat_%282022%29.svg/960px-Belsat_%282022%29.svg.png" group-title="Inne",Belsat
 https://iptv.prosto.tv/ch171/index.m3u8
-#EXTINF:0 tvg-id="CanalPlus.pl" tvg-name="CANAL+ Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Premium
-https://stream.canalplus.pl/premium.m3u8
 #EXTINF:0 tvg-id="CanalPlusSport.pl" tvg-name="CANAL+ Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Sport
-https://stream.canalplus.pl/sport.m3u8
-#EXTINF:0 tvg-id="CanalPlusFilm.pl" tvg-name="CANAL+ Film" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Film
-https://stream.canalplus.pl/film.m3u8
-#EXTINF:0 tvg-id="CanalPlusSeriale.pl" tvg-name="CANAL+ Seriale" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Seriale
-https://stream.canalplus.pl/seriale.m3u8
-#EXTINF:0 tvg-id="CanalPlusFamily.pl" tvg-name="CANAL+ Family" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Family
-https://stream.canalplus.pl/family.m3u8
-#EXTINF:0 tvg-id="CanalPlusDokumenty.pl" tvg-name="CANAL+ Dokumenty" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Dokumenty
-https://stream.canalplus.pl/dokumenty.m3u8
-#EXTINF:0 tvg-id="CanalPlusNow.pl" tvg-name="CANAL+ Now" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Canal%2B_Poland_logo.svg/500px-Canal%2B_Poland_logo.svg.png" group-title="CANAL+",CANAL+ Now
-https://stream.canalplus.pl/now.m3u8
+https://tvpi.travny.workers.dev/canalplussport.m3u8
 #EXTINF:0 tvg-id="13 Ulica" tvg-name="13 Ulica" tvg-logo="http://logo.plusx.tv/logo/13%20Ulica%20HD.png" group-title="Rozrywka",13 Ulica HD
 http://cdnx1.plusx.tv:4000/325/mono.m3u8?token=ec11f50b00e8c545d0042b79db8ab7a03333
 #EXTINF:0 tvg-id="13.TV" tvg-name="13.TV" tvg-logo="http://epg.ovh/logo/13TV+HD.png" group-title="Rozrywka",13TV HD
